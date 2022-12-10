@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="External_2.css">
+</head>
+<body>
+        
+        <div style="width:80%; height:600px;overflow:auto;" class="main-page">
+                <div style="float:left;width:50%;height:500px;overflow:auto;" class="inner-div">
+                        <h1>
+                                1.Your Contact Details
+                        </h1>
+
+                        <div class="two-col">
+                                <div class="col1">
+                                        <input required type="text" placeholder="Full Name" maxlength="250">         
+                                </div>
+                                <div class="col2">
+                                        <input type="text" placeholder="Patient Id if exists">
+                                </div>    
+                        </div>
+
+                        <div class="two-col">
+                                <div class="col1">
+                                        <input required type="text" placeholder="Phone Number">         
+                                </div>
+                                <div class="col2">
+                                        <input required type="email" placeholder="email" name="email">
+                                </div>    
+                        </div>
+                        <br>
+                        <h1>
+                                2.Address
+                        </h1>
+
+                        <div class="two-col">
+                                <div class="col1">
+                                        <input required type="text" placeholder="HouseNo">         
+                                </div>
+                                <div class="col2">
+                                        <input required type="text" placeholder="Street">
+                                </div>    
+                        </div>
+
+                        <div class="two-col">
+                                <div class="col1">
+                                        <input required type="text" placeholder="Area">         
+                                </div>                        
+                        </div>        
+                        <br>
+                        <h1>
+                                3.District
+                        </h1>
+                        <label for="District">
+                                <b>Choose a District</b>
+                        </label>
+                        <select name="District" id ="District">
+                                <option value="Chennai">Chennai</option>
+                                <option value="Ernakulam">Ernakulam</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Lucknow">Lucknow</option>
+                        </select>
+                        <br><br>
+                        <h1>
+                                4.TestType
+                        </h1>
+
+                        <label for="TestType">Choose a TestType(Check atleast one box without fail)</label><br><br>
+
+                        <div class="two-col">
+                                <div class="type">
+                                        <label for="CBC"><input type="checkbox" id="CBC" name="CBC" value="CBC">CBC</label>                     
+                                </div>
+                                <br>
+                                <div class="type">
+                                        <label for="Complete Urine"><input type="checkbox" id="Complete Urine" name="Complete Urine" value="Complete Urine">Complete Urine</label>                          
+                                </div>
+                        </div>
+                        <div class="two-col">
+                                <div class="type">  
+                                        <label for="Lipid Profile"><input type="checkbox" id="Lipid Profile" name="Lipid Profile" value="Lipid Profile">Lipid Profile</label>                                        
+                                </div>
+                                <br>
+                                <div class="type">
+                                        <label for="Thyroid Stimulating Hormone"><input type="checkbox" id="Thyroid Simulating Hormone" name="Thyroid Stimulating Hormone" value="Thyroid Stimulating Hormone">TSH</label>                                        
+                                </div>
+                        </div>
+
+                        <div class="two-col">
+                                <div class="type"> 
+                                        <label for="Glucose Test"><input type="checkbox" id="Glucose Test" name="Glucose Test" value="Glucose Test">Glucose Test</label>               
+                                </div>
+                        </div>        
+                        <br>
+                        <h1>
+                                5.Do You want a hardcopy of the Test?
+                        </h1>
+                                
+                        <label for="YesNo">
+                                Select Yes or No
+                        </label>
+                                <select name="YesNo" id ="YesNo">
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                </select>
+                        <br><br>        
+                        <h1>
+                                6.Select Your Comfortable Date and Time
+                        </h1>
+                                <label for="Date and Time">Date and Time</label>
+                                <input type="datetime-local" id="Date and Time" name="Date and Time">
+                                <br>
+                                <br>
+
+                </div>      
+              
+                        <img style="width:30%;float:right;position:fixed;height:500px;overflow:auto;" class="inner-div" src="lab-test.jpg">
+                
+        </div>
+
+       
+                <div class="button-position">
+                       
+                        <button type="submit">Reset</button>    
+                     
+                          
+                        <button type="submit">Submit</button>
+                        </div>
+                          
+        </div>
+</body>
+</html>
